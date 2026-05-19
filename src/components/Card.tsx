@@ -1,0 +1,1 @@
+import React from 'react';import {View,StyleSheet,ViewProps} from 'react-native';import {useAppTheme} from '@/theme';export default function Card(props:ViewProps){const t=useAppTheme();return <View {...props} style={[styles.card,{backgroundColor:t.colors.card},props.style]}/>;}const styles=StyleSheet.create({card:{padding:16,borderRadius:18,marginVertical:8}});
