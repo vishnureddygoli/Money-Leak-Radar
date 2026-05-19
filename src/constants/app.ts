@@ -1,0 +1,1 @@
+export const APP_NAME='Money Leak Radar'; export const DISCLAIMER='Potential savings only. Not financial advice.';

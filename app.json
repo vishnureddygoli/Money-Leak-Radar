@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Money Leak Radar",
+    "slug": "money-leak-radar",
+    "version": "1.0.0",
+    "scheme": "moneyleakradar",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#071022"
+    },
+    "ios": {"bundleIdentifier":"com.yourcompany.moneyleakradar"},
+    "android": {
+      "package":"com.yourcompany.moneyleakradar",
+      "adaptiveIcon":{"foregroundImage":"./src/assets/adaptive-icon.png","backgroundColor":"#071022"}
+    },
+    "plugins": ["expo-secure-store"],
+    "extra": {"apiBaseUrl":"https://api.example.com","mockMode":true},
+    "owner": "your-expo-account"
+  }
+}

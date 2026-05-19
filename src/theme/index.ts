@@ -1,0 +1,1 @@
+import {useColorScheme} from 'react-native';import {colors} from './colors';export const useAppTheme=()=>{const dark=useColorScheme()!=='light';return {dark,colors:{background:dark?colors.bg:'#EFF4FB',card:dark?'#101A2D':colors.card,text:dark?colors.textOnDark:colors.text,accent:colors.accent,danger:colors.danger}}};
